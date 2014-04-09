@@ -61,7 +61,7 @@ $(document).ready(function() {
 			$(".tweet").mouseleave(function(){
 				$(this).find(".reply, .stats").slideUp();
 			});
-		};
+		};  // this function initializes when the webpage first boots, the then is called both at end of the wepage load, and during the click/clone function.
 
 
 	$("#tweet-submit").click(function(){ 
